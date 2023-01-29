@@ -9,4 +9,6 @@ public class DataContext : DbContext
 
     }
 
+    public DbSet<TrainStation> TrainStations { get; set; }
+
 };
